@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Mouse Hovering to Desktop and Clicking on it: [[ChromeDriver: chrome on WINDOWS (119650c943603176be7eb9cbd4d41f29)] -> link text: Desktops]]]>
+    </line>
+    <line>
+      <![CDATA[Arrange products in descending order]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="6952" started-at="2022-12-13T17:36:04 GMT" finished-at="2022-12-13T17:36:11 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="DeskTopPageTest.verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.tutorialsninja.testsuite.DeskTopPageTest@704a52ec]" name="verifyProductArrangeInAlphabeticalOrder" class="com.tutorialsninja.testsuite.DeskTopPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="DeskTopPageTest.verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.tutorialsninja.testsuite.DeskTopPageTest@704a52ec]" name="verifyProductArrangeInAlphabeticalOrder" class="com.tutorialsninja.testsuite.DeskTopPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="com-tutorialsninja-maven-page-factory-anisha" duration-ms="6952" started-at="2022-12-13T17:36:04 GMT" finished-at="2022-12-13T17:36:11 GMT">
+      <class name="com.tutorialsninja.testsuite.DeskTopPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialsninja.testsuite.DeskTopPageTest@704a52ec]" name="setUp" is-config="true" duration-ms="4649" started-at="2022-12-13T17:36:04 GMT" finished-at="2022-12-13T17:36:08 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.tutorialsninja.testsuite.DeskTopPageTest@704a52ec]" name="inIt" is-config="true" duration-ms="23" started-at="2022-12-13T17:36:08 GMT" finished-at="2022-12-13T17:36:08 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.tutorialsninja.testsuite.DeskTopPageTest@704a52ec]" name="verifyProductArrangeInAlphabeticalOrder" duration-ms="1591" started-at="2022-12-13T17:36:08 GMT" finished-at="2022-12-13T17:36:10 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Mouse Hovering to Desktop and Clicking on it: [[ChromeDriver: chrome on WINDOWS (119650c943603176be7eb9cbd4d41f29)] -> link text: Desktops]]]>
+            </line>
+            <line>
+              <![CDATA[Arrange products in descending order]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphabeticalOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialsninja.testsuite.DeskTopPageTest@704a52ec]" name="tearDown" is-config="true" duration-ms="657" started-at="2022-12-13T17:36:10 GMT" finished-at="2022-12-13T17:36:11 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.testsuite.DeskTopPageTest -->
+    </test> <!-- com-tutorialsninja-maven-page-factory-anisha -->
+  </suite> <!-- Default Suite -->
+</testng-results>
